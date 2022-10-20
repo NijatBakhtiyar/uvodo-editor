@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext", "scripthost"],
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": false,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": false,
+    "types": ["react", "vite/client", "node"],
+    "noImplicitAny": false,
+    // for path alieses, look vite.config
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+  "include": [
+    "./src",
+    "example",
+    "vite.config.ts",
+    "package.json",
+    "docs/stories"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./dist",
+    "./generators",
+    ".git",
+    "**/node_modules"
+  ]
+}
