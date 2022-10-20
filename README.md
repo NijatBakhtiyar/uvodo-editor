@@ -8,9 +8,9 @@ npm install @uvodohq/editor
 
 ```jsx
 import React from 'react'
-import { Editor } from '@uvodohq/editor'
+import { Editor } from '@nijatbakhtiyarli/editor'
 
-import '@uvodohq/editor/dist/style.css'
+import '@nijatbakhtiyarli/editor/dist/style.css'
 
 export default function App() {
   return (

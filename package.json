@@ -1,7 +1,7 @@
 {
-  "name": "@uvodo/editor",
+  "name": "@nijatbakhtiyarli/editor",
   "type": "module",
-  "version": "0.0.0-beta.1",
+  "version": "0.0.4",
   "private": false,
   "description": "Uvodo Editor - A simple, lightweight, and extensible editor for the web.",
   "keywords": [
@@ -18,7 +18,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NijatBakhtiyar/uvodohq-editor"
+    "url": "https://github.com/NijatBakhtiyar/uvodo-editor"
   },
   "exports": {
     ".": {
