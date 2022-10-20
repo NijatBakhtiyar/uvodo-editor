@@ -1,5 +1,5 @@
 {
-  "name": "@uvodo/editor",
+  "name": "@uvodohq/editor",
   "type": "module",
   "version": "0.0.0-beta.1",
   "private": false,
@@ -16,6 +16,10 @@
   "main": "./dist/editor.umd.cjs",
   "module": "./dist/editor.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NijatBakhtiyar/uvodohq-editor"
+  },
   "exports": {
     ".": {
       "import": "./dist/editor.js",
